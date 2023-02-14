@@ -2,7 +2,7 @@
 Zbiór informacji do zajęć ``Lokalne sieci komputerowe``
 
 ## :book: Spis treści
-> :hammer: [1. Podstawy sieci komputerowych](https://github.com/TEB-DK/Kompendium_sieci/tree/Podstawy-sieci-komputerowych)
+> :ballot_box_with_check: [1. Podstawy sieci komputerowych](https://github.com/TEB-DK/Kompendium_sieci/tree/Podstawy-sieci-komputerowych)
 
 > :hammer: [2. Modele warstwowe ISO/OSI i TCP/IP](https://github.com/TEB-DK/Kompendium_sieci/tree/Modele-warstwowe-ISO/OSI-i-TCP/IP)
 
