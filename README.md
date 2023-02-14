@@ -1,4 +1,4 @@
-# 🌐 Podstawy sieci komputerowych 🌐
+<h1 align="center">🌐 Podstawy sieci komputerowych 🌐</h1>
   
   Zanim jednak zostaną zgłębione tajniki sieci oraz protokołów, to należy najpierw poznać podstawowe pojęcia użytkowane w domenie sieciowej.
 
