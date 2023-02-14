@@ -2,6 +2,7 @@
   
   Zanim jednak zostaną zgłębione tajniki sieci oraz protokołów, to należy najpierw poznać podstawowe pojęcia użytkowane w domenie sieciowej.
 
+
 ## 📚 Podstawowe pojęcia
 
   ### Sieć komputerowa
