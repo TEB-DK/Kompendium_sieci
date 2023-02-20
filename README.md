@@ -221,14 +221,12 @@
       - #### Rodzaje
       > Z głównych rodzajów przewodu koncentrycznego wyróżniamy takie jak: cienki oraz gruby. Różnice ich zależą właśnie od średnicy przekroju, ponieważ im grubszy (co za tym idzie droższy) tym większa długość zasięgu. Przewód koncentryczny jednak jest już anarchicznym elementem sieci, w jego miejsce stosuje się bardziej efektywne rozwiązania na przykład światłowód, czy skrętke.
 
-      <div align="center">
 
       |Rodzaj przewodu | Grubość                  | Maksymalna długość | Standard sieci | Maksymalna przepustowość                |  
       |:---:           |:---:                 |:---:                 |:---:     |:---:                 |
       | Cienki     | 5 mm| 185 m                 | 10Base-2     | 10 [Mb/s]                |
       | Gruby      | 10 mm |    500 m             | 10Base-5    | 10 [Mb/s]                |
 
-      </div>
 
    - ``Przewód typu skrętka``
       
