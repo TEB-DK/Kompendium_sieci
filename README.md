@@ -191,4 +191,164 @@
   
 
 ## 🔌 Media transmisyjne
-> in progress
+> Ważnym dla komunikacji w sieci są media transmisyjne oraz w jaki sposób są wykonane. Wiele jest ku temu powodów jednak najważniejsze z nich to fakt, że dobór odpowiedniego medium stanowi podstawę i gwarancję właściwego oraz wydajnego działania sieci komputerowej.
+
+  ### Medium transmisyjne
+  > Innymi słowy jest to jakiś nośnik, element sieci, poprzez który urządzenia mogą komunikować się między sobą i wymieniać dane. Takim medium może być przewód miedziany, światłowodowy jak i również fale radiowe (Wi-Fi).
+
+  <div align="center">
+
+  |Rodzaj przewodu | Typ                  |
+  |:---:           |:---:                 |
+  | Miedziany      | Przewód koncentryczny|
+  | Miedziany      | Przewód typu skrętka |
+  | Światłowodowy  | Jednomodowy          |
+  | Światłowodowy  | Wielomodowy          |
+
+  </div>
+
+  ### Przewody miedziane
+
+   - ``Przewód koncentryczny``
+      
+      - #### Budowa
+
+        - Koszulka zewnętrzna 
+        - Miedziany ekran
+        - Plastikowa izolacja
+        - Miedziany rdzeń
+
+      - #### Rodzaje
+      > Z głównych rodzajów przewodu koncentrycznego wyróżniamy takie jak: cienki oraz gruby. Różnice ich zależą właśnie od średnicy przekroju, ponieważ im grubszy (co za tym idzie droższy) tym większa długość zasięgu. Przewód koncentryczny jednak jest już anarchicznym elementem sieci, w jego miejsce stosuje się bardziej efektywne rozwiązania na przykład światłowód, czy skrętke.
+
+      <div align="center">
+
+      |Rodzaj przewodu | Grubość                  | Maksymalna długość | Standard sieci | Maksymalna przepustowość                |  
+      |:---:           |:---:                 |:---:                 |:---:     |:---:                 |
+      | Cienki     | 5 mm| 185 m                 | 10Base-2     | 10 [Mb/s]                |
+      | Gruby      | 10 mm |    500 m             | 10Base-5    | 10 [Mb/s]                |
+
+      </div>
+
+   - ``Przewód typu skrętka``
+      
+      - #### Budowa
+
+        - Koszulka zewnętrzna
+        - Ewentualny separator po środku
+        - 8 miedzianych żył splecionych w 4 pary
+
+      - #### Rodzaje
+      > W rodzajach skrętech występują różne kombinację poza podanymi podstawowymi - np. ``U/UTP`` - oznacza również niekranowaną, lub ``S/FTP`` - skrętka z każdą parą foliowaną i dodatkowo całość w ekranie siatki
+
+        - ``UTP - U/UTP`` - Skrętka ``nieekranowana`` 
+
+        <img width="300px" src="https://user-images.githubusercontent.com/125214141/220196503-33b62973-2c7e-421d-bc5d-9f553e4b05d0.png" />
+
+        <img width="300px" src="https://user-images.githubusercontent.com/125214141/220197864-23aaa688-3aef-4849-b459-3b63306ade51.png" />
+
+        - ``FTP - F/UTP`` - Skrętka ekranowana ``folią``
+
+        <img width="300px" src="https://user-images.githubusercontent.com/125214141/220196334-cc52c982-5e4e-4cf8-a6d7-06baf13dc524.png" />
+        
+        <img width="300px" src="https://user-images.githubusercontent.com/125214141/220198041-bceacbbe-4e0d-48ee-b2c4-427b069baa17.png" />
+
+        - ``STP - SF/UTP`` - Skrętka ekranowana ``siatką``
+
+        <img width="300px" src="https://user-images.githubusercontent.com/125214141/220196668-73226bea-7202-4ef9-9516-5c67ae259d7e.png" />
+
+
+        - ``S/FTP`` - skrętka z każdą parą foliowaną, dodatkowo całość w ekranie z siatki
+
+        <img width="300px" src="https://user-images.githubusercontent.com/125214141/220199942-bb6e1908-bdf3-49ba-a004-b00b36c7ebb5.png" />
+
+        <img width="300px" src="https://user-images.githubusercontent.com/125214141/220199062-40f2ca81-9ab4-40b3-b9c0-ad3a873dfc07.png" />
+
+
+      - #### Kategorie
+
+
+        |Kategoria | Standard sieci                  |
+        |:---:           |:---:                 |
+        | 3      | Ethernet 10Base-T|
+        | 5/5e      | FastEthernet 100Base-TX GigabitEthernet 1000Base-T |
+        | 6  | GigabitEthernet 1000Base-T          |
+        | 6a  | 10-GigabitEthernet 10GBase-T          |
+        | 7  | 10-GigabitEthernet 10GBase-T          |
+
+
+
+  ### Przewody światłowodowe
+  > Najnowszym i zupełnie innym medium transmisyjnym jest przewód światłowodowy, innym ze względu na budowę rdzenia. Włókno szklane jest wykorzystywane jako rdzeń w przewodach światłowodowych, co za tym idzie sygnał przesyłowy to nie prąd elektryczny, a promień świetlny (wiązka światła). Dzielą się również tylko na dwa typy ogólne ``jednomodowy`` oraz ``wielomodowy``
+
+   #### Budowa
+   - Płaszcz zewnętrzny
+   - Powłoka wzmacniająca chroniąca rdzeń podczas instalacji
+   - Powłowka lakierowana chroniąca płaszcz
+   - Płaszcz
+   - Rdzeń
+
+   ![obraz-removebg-preview(30)](https://user-images.githubusercontent.com/125214141/220202760-7b73cb67-d2ad-4b85-bdc5-15de22fe4810.png)
+
+   Do tego dochodzą różne typy złącz: 
+
+   ![obraz-removebg-preview(31)](https://user-images.githubusercontent.com/125214141/220203222-a2906fb6-f543-4354-bd7d-d51f15dec285.png)
+
+  - ``Światłowód jednomodowy``
+  > W przypadku światłowodu jednomodowego przez szklany rdzeń przysłana jest tylko jedna wiązka światła, dzięki temu ograniczone zostało zjawisko tzw. rozmycia sygnału, czyli jego osłabienia.
+
+  ![Wiązka jednomodowa](https://user-images.githubusercontent.com/125214141/220204169-1e825f44-21d6-42e8-a472-05f350cf60b8.png)
+
+  Wykorzystanie takiego rodzaju światłowodu pozwala na transmisje sygnału na bardzo ``duże odległości`` bez konieczności stosowania urządzeń wzmacniający sygnał.
+
+  - ``Światłowód wielomodowy``
+  > W światłowodzie wielomodowym przez rdzeń przesyłanych jest więcej wiązek światła, czego konsekwencją jest znacznie większy w porównaniu do światłowodu jednomodowego stopień rozmycia sygnału. Wynika to z faktu, ze każda wiązka światła przysłana przez rdzeń musi pokonać inna drogę od nadawcy do odbiorcy.
+
+  ![Wiązka wielomodowa](https://user-images.githubusercontent.com/125214141/220204271-b9b91655-332a-44a9-88cd-abfa8ca9ec6f.png)
+
+  W związku z tym światłowody wielomodowe stosuje się na ``niewielkich odległościach``, maksymalnie do kilku kilometrów.
+
+  Kolejną różnicą pomiędzy światłowodem jedno i wielomodowym jest zastosowana ``średnica rdzenia``. W przypadku jednomodowego światłowodu wynosi ona między ``8 a 10 mikrometrów [μm]``, natomiast w przypadku światłowodu wielomodowego ``50 [μm]`` lub ``62,5 [μm]``.
+
+  ### Media bezprzewodowe
+
+  W przypadku mediów bezprzewodowych, stosuje się kilka rozwiązań, jednak w praktyce wykorzystuje się tylko jedno z nich, są to ``fale radiowe``. Znana wszystkim technologia ``Wi-Fi`` wykorzystuje właśnie to medium do transmisji danych.
+
+  Fale radiowe są ``promieniowaniem elektromagnetycznym`` z zakresu częstotliwości od ``3 [Hz]`` do około ``3 [THz]``. Źródła fal radiowych mogą być zarówno naturalne, jak i sztuczne, np. emitowane przez stacje nadawcze telefonii komórkowej. 
+  
+  Ich głównym celem jest przenoszenie informacji, a w przypadku telekomunikacji transmisja danych. Wyróżnia się kilka rodzajów fal radiowych, natomiast do transmisji danych stosuje się fale ``długie``, ``średnie`` i ``krótkie`` oraz ``ultrakrótkie``.
+
+  Przy okazji omawiania fal radiowych warto wspomnieć o standardach jakie wykorzystywane są w sieciach bezprzewodowych. Są one istotne z punktu widzenia doboru odpowiedniego rutera ``Wi-Fi``.
+
+  <div align="center">
+
+  |Standard sieci | Częstotliwość | Przepustowość |
+  |:---:           |:---:                 |:---:|
+  | 802.11a     | 5 [GHz] | 54 [Mb/s] |
+  | 802.11b     | 2,4 [GHz] | 11 [Mb/s] |
+  | 802.11g     | 2,4 [GHz] | 54 [Mb/s] |
+  | 802.11n     | 2,4 [GHz]; 5 [GHz] | 150 [Mb/s]; 600 [Mb/s] |
+  | 802.11ac    | 5 [GHz] | do kilku [Gb/s] |
+
+  </div>
+
+
+  ### Podsumowanie
+
+   - #### Media miedziane
+
+      |Zalety |Wady | 
+      |:---: |:---: |
+      |Niski koszt| Wrażliwość na zakłócenia ``elektromagnetyczne`` |
+      |Łatwość montażu i instalacji | Niewielka odległość pomiędzy węzłami sieci |
+      |Łatwość diagnozowania i naprawy usterek | Mniejsza przepustowość |
+
+   - #### Media światłowodowe
+
+      |Zalety |Wady | 
+      |:---: |:---: |
+      |Wysoka przepustowość| Rozmycie sygnału|
+      |Transmisja na dużych odległościach | Trudność instalacji |
+      |Znikoma wrażliwość na zakłócenia ``elektromagnetyczne`` | Drogi koszt osprzętu sieciowego |
+
+
