@@ -349,4 +349,11 @@
       |Transmisja na dużych odległościach | Trudność instalacji |
       |Znikoma wrażliwość na zakłócenia ``elektromagnetyczne`` | Drogi koszt osprzętu sieciowego |
 
+   - #### Media bezprzewodowe
+    
+      |Zalety | Wady|
+      |:---:|:---:|
+      |Niski koszt| Mała prędkość przesyłu danych|
+      |Łatwość w montażu i instalacji| Wrażliwe na zakłócenia|
+      |Wielodostępowość | Wymaga zabezpieczeń dostepu |
 
