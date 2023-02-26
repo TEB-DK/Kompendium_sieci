@@ -163,6 +163,13 @@
     ![Topologia gwiazdy](https://user-images.githubusercontent.com/125214141/218600746-d8f8f7b9-65e7-4a9b-a9be-513133ae0400.png)
 
     -  urządzenia podłączone są do centralnego punktu, stanowiącego punkt dostępu do sieci. Dawniej punkt ten stanowiły ``koncentratory (ang. hub)``, obecnie natomiast stosuje się ``przełączniki (ang. switch)``. W lokalnych sieciach jest to najczęściej spotykana topologia, ponieważ jest prosta w zaprojektowaniu, budowie oraz rozbudowie, odporna na awarie i łatwo zarządzalna. Wadą zdecydowanie jest koszt budowy takiej struktury sieciowej.
+    
+  - ``Siatki (ang. Mesh)``
+
+    ![Topologia siatki](https://user-images.githubusercontent.com/125214141/221415750-d3c79546-9a13-4d67-b434-5fc591c476b8.png)
+
+    -  sposób połączenia urządzeń w topologii siatki opiera się na połączeniu każdego hosta z pozostałymi hostami należącymi do sieci. Topologia siatki jest bardziej złożona od swoich poprzedników. Projekt sieci polega na połączeniu ze sobą urządzeń w taki sposób, że każde z nich łączy się więcej niż z jednym urządzeniem. Jej zaletami jest duża prędkość przesyłanych danych oraz odporność na awarie, jednak z zaletami idą też wady, a w przypadku tej topologii jest to koszt budowy i problematyczna rozbudowa.
+    
   
 
   ### 🧠 Topologia sieci ``logiczna`` 
