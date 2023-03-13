@@ -126,3 +126,4 @@ Kiedy ``host docelowy`` odbierze bity, następuje proces odwrotny do enkapsulacj
 W sieciach komputerowych stosuje się modele warstwowe w celu łatwiejszego opisywania i sterowania poszczególnymi etapami komunikacji, a także w celu ``standaryzacji``, tak aby zarówno sprzęt jak i oprogramowania różnych producentów były ze sobą ``kompatybilne``. Komunikacja w sieci odbywa się z wykorzystaniem przyjętych reguł i zasad zwanych ``protokołami komunikacyjnymi``. Proces komunikacji w sieci polega na przekazywaniu danych w dół stosu na urządzeniu źródłowym, zakodowaniu ich do postaci bitów i przesłaniu do urządzenia docelowego, gdzie dane przekazywane są w górę stosu i interpretowane. W poszczególnych warstwach dane opatrywane są informacjami sterującymi, numerami portów oraz adresami logicznymi i fizycznymi, następnie są kodowane i przesyłane do odbiorcy.
 
 
+---
