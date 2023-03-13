@@ -364,3 +364,4 @@
       |Łatwość w montażu i instalacji| Wrażliwe na zakłócenia|
       |Wielodostępowość | Wymaga zabezpieczeń dostepu |
 
+---
