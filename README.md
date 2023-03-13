@@ -1,8 +1,6 @@
 # Kompendium_sieci
 Zbiór informacji do zajęć ``Lokalne sieci komputerowe``
 
-<div align="center">
-
 ## :book: Spis treści
 > :ballot_box_with_check: [1. Podstawy sieci komputerowych](https://github.com/TEB-DK/Kompendium_sieci/tree/Podstawy-sieci-komputerowych)
 
@@ -12,9 +10,8 @@ Zbiór informacji do zajęć ``Lokalne sieci komputerowe``
 
 > :hammer: [4. Zagrożenia sieciowe](https://github.com/TEB-DK/Kompendium_sieci/tree/Zagro%C5%BCenia-sieciowe)
 
-</div>
 
-<div align="right">
+<div align="center">
 
 ## Legenda
 | Symbol                    | Znaczenie|
