@@ -8,7 +8,7 @@ Zbiór informacji do zajęć ``Lokalne sieci komputerowe``
 
 > :ballot_box_with_check: [3. Protokoły warstwy aplikacji](https://github.com/TEB-DK/Kompendium_sieci/tree/3.Protoko%C5%82y-warstwy-aplikacji)
 
-> :hammer: [4. Zagrożenia sieciowe](https://github.com/TEB-DK/Kompendium_sieci/tree/Zagro%C5%BCenia-sieciowe)
+> :ballot_box_with_check: [4. Protokoły warstwy transportowej](https://github.com/TEB-DK/Kompendium_sieci/tree/4.Protoko%C5%82y-warstwy-transportowej)
 
 
 <div align="center">
