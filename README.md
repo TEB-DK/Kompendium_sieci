@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📦 Adresowanie sieciowe 🌐
+# 📮 Adresowanie sieciowe 📢
 
 </div>
 
