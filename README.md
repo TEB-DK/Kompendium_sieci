@@ -11,7 +11,7 @@ Adresacja sieciowa to element nieodłączny i fundamentalny względem założeń
 Każdy adres `IPv4` składa się z `32-bitowego` ciągu zer i jedynek. Wynika to z faktu, że działanie urządzeń w sieciach komputerowych oparte jest na logice cyfrowej, co oznacza, że adresy te interpretowane są jako liczby `binarne`. Dla prostszego stosowania adresacji i zapamiętywania adresów, na co dzień stosuje się jednak zapis `dziesiętny`. Zapis ten składa się z `4 części` (każda z nich to 1 bajt czyli 8 bitów), zwanych `oktetami`.
 
 > [!NOTE]
-> Adres IP w zapisie dziesiętnym  `192.168.210.102`
+> Adres IP w zapisie dziesiętnym  `192.168.200.69`
 > 
 > będzie miał postać binarną równą `11000000.10101000.11010010.01100110`
 
