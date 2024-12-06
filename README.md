@@ -121,7 +121,7 @@ Jeśli wiemy już czym są porty aplikacji to wprowadźmy sobie kolejne pojęcie
 
 <div align="center">
 
-## 192.168.210.13:80
+## 192.168.200.138:23
 
 </div>
 
