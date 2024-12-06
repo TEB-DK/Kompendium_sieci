@@ -20,8 +20,7 @@ Każdy oktet posiada przelicznik na wartość dziesiętną, a liczenie zaczynamy
 
 Więc jeżeli byśmy chcieli jeden z czterech oktetów obliczyć to musimy go sobie wydzielić i pod wartością `1` podpisać odpowiednią jej wartość `dziesiętną`, z tego przykładu wybierzmy sobie pierwszy oktet (od końca)
 
-![bin-removebg-preview](https://github.com/user-attachments/assets/e207c67f-149b-49f4-a106-b229a2d0721d)
-
+![kocopoły-mspaint](https://github.com/user-attachments/assets/1f2bc440-703f-4a18-b214-29d58b091644)
 
 Jak widać rozliczenie takiego oktetu przebiega w sposób następujący:
 
