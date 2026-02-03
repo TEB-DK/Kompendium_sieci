@@ -16,16 +16,28 @@ Każdy adres `IPv4` składa się z `32-bitowego` ciągu zer i jedynek. Wynika to
 > będzie miał postać binarną równą `11000000.10101000.11010010.01100110`
 
 Każdy oktet posiada przelicznik na wartość dziesiętną, a liczenie zaczynamy zawsze od `prawej strony`.
+
+<div align='center'>
+
 ![1248163264128-removebg-preview](https://github.com/user-attachments/assets/dd02e7de-0e0f-40de-8352-7c360e1b8d00)
+
+</div>
 
 Więc jeżeli byśmy chcieli jeden z czterech oktetów obliczyć to musimy go sobie wydzielić i pod wartością `1` podpisać odpowiednią jej wartość `dziesiętną`, z tego przykładu wybierzmy sobie pierwszy oktet (od końca)
 
+<div align='center'>
+ 
 ![bin-removebg-preview](https://github.com/user-attachments/assets/e207c67f-149b-49f4-a106-b229a2d0721d)
 
+</div>
 
 Jak widać rozliczenie takiego oktetu przebiega w sposób następujący:
 
+<div align='center'>
+
 ![binary2-removebg-preview](https://github.com/user-attachments/assets/c0e35aab-f228-4f48-bb06-91c9eecc3c79)
+
+</div>
 
 Jeżeli pod nad daną wartością występuje `1` to zostawiamy wartość dolną (dziesiętną), a pod wartościami `0` wymazujemy wartość pod spodem.
 W efekcie uzyskujemy wartości dziesiętne które musimy zsumować ze sobą aby uzyskać przeliczoną wartość `z systemu binarnego na dziesiętny`.
@@ -76,13 +88,21 @@ Drugie pytanie jakie powinno się pojawić to "`Dlaczego na 3, a nie na 4?`" z t
 
 Co za tym idzie, możliwe jest ułożenie liczb jedynie z wartości maksymalnie 7, cyfra jak 99 nie zaistnieje w tym systemie.
 
+<div align='center'>
+
 ![8na2-removebg-preview(1)](https://github.com/user-attachments/assets/72f24e21-752a-4c00-af05-b42a13ed3745)
+
+</div>
 
 Natomiast wynik `1110111` już możemy przepisać do postaci dziesiętnej - 64+32+16+4+2+1 = `119`
 
 Aby zastosować odwrotność tego działania to jest nieco prościej, ponieważ tylko trzeba podzielić wartość na 8 i zliczać resztę z dzielenia.
 
+<div align='center'>
+
 ![10na8-removebg-preview](https://github.com/user-attachments/assets/ab90cf3d-1c5f-476e-aeb3-7ab574719cbb)
+
+</div>
 
 Zastosowanie przeliczenia jest proste:
 1. Liczbę 119 dzielimy przez 8, ósemek mieści się 14, a 14*8 daje nam 112, a 119 - 112 = 7 więc i reszta jest 7, zapisujemy po prawej stronie.
