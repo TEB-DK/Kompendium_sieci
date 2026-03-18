@@ -275,3 +275,13 @@ Broadcast: 11000000.10101000.00000001.10111111
 | Adres sieci | `IP & Maska`           | zeruje hosta       |
 | Broadcast   | `IP \| ~Maska`         | ustawia hosta na 1 |
 | Hosty       | liczba bitów 0 w masce | możliwe kombinacje |
+
+### Zadania
+
+1. 192.168.210.19/24
+2. 67.32.168.4 / 17
+3. 168.210.37.222 / 28
+4. 222.173.76.99 / 29
+5. 52.155.189.93 / 12
+6. 142.173.252.111 / 22
+7. 198.85.26.162 / 18
