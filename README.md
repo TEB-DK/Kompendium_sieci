@@ -143,3 +143,135 @@ Zastosowanie przeliczenia jest proste:
 28. 413 (dziesiętnie) = ? (ósemkowo)
 29. 532 (dziesiętnie) = ? (ósemkowo)
 30. 678 (dziesiętnie) = ? (ósemkowo)
+
+## Adresowanie sieci lokalnej 🕸️
+
+### Kluczowe operacje bitowe
+
+W adresowaniu IPv4 używamy głównie:
+
+>[!NOTE]
+>✅ AND (`&`) – do wyznaczania adresu sieci
+> ```
+> 1 & 1 = 1  
+> 1 & 0 = 0  
+> 0 & 1 = 0  
+> 0 & 0 = 0  
+> ```
+>
+>✅ OR (`|`) – rzadziej bezpośrednio
+>
+> ```
+>1 | 1 = 1
+>1 | 0 = 1
+>0 | 1 = 1
+>0 | 0 = 0
+>```
+>
+>✅ NOT (`~`) – negacja bitów
+>
+> ```
+> ~1 = 0  
+> ~0 = 1  
+> ```
+
+### Adres sieci (NETWORK) – operacja AND
+
+#### Przykład:
+
+IP: `192.168.1.130`
+Maska: `/26` = `255.255.255.192`
+
+#### Krok 1: zapis binarny
+
+```
+IP:     11000000.10101000.00000001.10000010
+Maska:  11111111.11111111.11111111.11000000
+```
+
+#### Krok 2: AND bit po bicie
+
+```
+11000000.10101000.00000001.10000010
+AND
+11111111.11111111.11111111.11000000
+=
+11000000.10101000.00000001.10000000
+```
+
+#### Wynik:
+
+```
+192.168.1.128  ← adres sieci
+```
+
+
+### Broadcast – operacje NOT + OR
+
+Broadcast = ustaw wszystkie bity hosta na 1
+
+#### Krok 1: negacja maski
+
+Maska:
+
+```
+11111111.11111111.11111111.11000000
+```
+
+Negacja (~mask):
+
+```
+00000000.00000000.00000000.00111111
+```
+
+👉 to jest „część hosta”
+
+
+#### Krok 2: OR z adresem IP
+
+```
+IP:        11000000.10101000.00000001.10000010
+~Maska:    00000000.00000000.00000000.00111111
+------------------------------------------------
+Broadcast: 11000000.10101000.00000001.10111111
+```
+
+#### Wynik:
+
+```
+192.168.1.191
+```
+
+✔️ wszystkie bity hosta = 1
+
+---
+
+### Liczba hostów – z bitów
+
+>[!IMPORTANT]
+> Maska `/26` → 26 bitów sieci.
+> Wzór na liczbę hostów jest następujący:
+>
+>  ``Hosty = 2^n - 2``
+>
+> Gdzie ``n`` to maska podsieci odjęta od ilości maksymalnej maski czyli `32`.
+>
+> ``
+> n = 32 - 26
+> n = 6
+> ``
+>
+> Odejmujemy 2 we wzorze ze względu na uwzględnienie adresu początkowego i końcowego, są to adresy `ZAREZEROWANE`.
+>
+> ```
+> 2^6 - 2 = ?
+> 64 - 2 = 62 hostów może być w tej podsieci maksymalnie.
+> ```
+
+### Co się faktycznie dzieje „bitowo”
+
+| Element     | Operacja               | Efekt              |
+| ----------- | ---------------------- | ------------------ |
+| Adres sieci | `IP & Maska`           | zeruje hosta       |
+| Broadcast   | `IP \| ~Maska`         | ustawia hosta na 1 |
+| Hosty       | liczba bitów 0 w masce | możliwe kombinacje |
